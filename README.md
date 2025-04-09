@@ -2,12 +2,17 @@
 
 <img width="801" alt="Screenshot 2023-12-22 at 11 33 09 PM" src="https://github.com/EricMcclellan1/AD-Lab/assets/147299619/d2b3b411-5a6f-43d2-ab21-7b1b3bc114af">
 
-
-## Introduction/Summary
+ ## Introduction/Summary
 
 In this project, I built an Active Directory home lab utilizing Oracle Virtualbox to simulate a corporate environment with 1,000 users. The environment consisted of a Windows Server 2019 VM that acted as my ‘Domain Controller’, and a windows 10 Pro VM in place to act as a ‘client’ machine. To make the environment similar to a corporate structure, a custom Powershell script was used to populate Active Directory with 1,000 users, with each user given a unique name (first name and last) as well as a default password. The windows 10 Pro VM (our ‘client’ machine) was then configured and joined to the domain.
 
-What followed next was using Active Directory to create group policies, security groups & organization unites. In closing, Active Directory was configured to act as a centralized management system for computers, users accounts, etc. 
+
+
+![image](https://github.com/user-attachments/assets/9a2b777c-d910-44e9-93b4-17af56651f37)
+
+
+
+What followed next was using Active Directory to create group policies, security groups & organization units. In closing, Active Directory was configured to act as a centralized management system for computers, users accounts, etc. 
 
 
 ## Technologies and Components Used:
