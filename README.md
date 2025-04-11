@@ -80,9 +80,9 @@ To replicate a corporate structure, I used a custom PowerShell script to populat
 
 ## Joining Windows 10 Pro To The Domain Controller
 
-As stated earlier, I used VirtualBox to also create the Windows 10 Pro environment to be a proxy for a ‘client’ computer in real-life. The network adapter was set to “internal network” to ensure traffic flowed only through the DC. To verify connection, I pinged the previously created DC, “mydomain.com” and got a positive read-back.
+As mentioned earlier, I also used VirtualBox to create a Windows 10 Pro environment to serve as a proxy for a real-life client computer. The network adapter was set to “Internal Network” to ensure that all traffic flowed exclusively through the Domain Controller. To verify connectivity, I pinged the previously created Domain Controller, “mydomain.com,” and received a successful response.
 
-After this machine was joined with the DC, I then tried accessing it using credentials from 10 users that I previously generated, logging into the Windows 10 VM. Again, to act as if I was a client/user who just got access to the work network and logging in to my first day at work. Each one was able to login with success.
+After joining the client machine to the Domain Controller, I tested the setup by logging into the Windows 10 VM using credentials from 10 of the previously generated user accounts. This simulated the experience of new employees accessing the corporate network for the first time. Each login attempt was successful.
 
 ![image](https://github.com/user-attachments/assets/60b7003f-3100-4df2-87d4-3f9fabc84b4c)
 
@@ -92,7 +92,7 @@ After this machine was joined with the DC, I then tried accessing it using crede
 
 ## Conclusion
 
-In conclusion, this project allowed me to gain valuable knowledge in setting up proper configuration of Active Directory as well as getting more practical hands-on experience with using scripts and VirtualBox. Playing around with Active Directory I was able to learn more about the tool, more of its ins and outs on a technical level and giving me more of a wider knowledge base of it in a more real world corporate environment.
+In conclusion, this project provided valuable experience in properly configuring Active Directory, while also enhancing my practical skills with scripting and VirtualBox. Through hands-on exploration, I gained deeper technical insight into Active Directory—its features, functions, and overall structure—broadening my understanding of how it's used in real-world corporate environments.
 
 
 
