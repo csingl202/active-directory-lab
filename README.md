@@ -2,7 +2,7 @@
 
 <img width="801" alt="Screenshot 2023-12-22 at 11 33 09 PM" src="https://github.com/EricMcclellan1/AD-Lab/assets/147299619/d2b3b411-5a6f-43d2-ab21-7b1b3bc114af">
 
- ## Introduction/Summary
+ ## Summary
 
  In this project, I built an Active Directory home lab using Oracle VirtualBox to simulate a corporate environment with 1,000 users. The environment consisted of a Windows Server 2019 virtual machine acting as the Domain Controller, and a Windows 10 Pro virtual machine serving as the client machine.
 
@@ -84,11 +84,11 @@ As mentioned earlier, I also used VirtualBox to create a Windows 10 Pro environm
 
 After joining the client machine to the Domain Controller, I tested the setup by logging into the Windows 10 VM using credentials from 10 of the previously generated user accounts. This simulated the experience of new employees accessing the corporate network for the first time. Each login attempt was successful.
 
-![image](https://github.com/user-attachments/assets/60b7003f-3100-4df2-87d4-3f9fabc84b4c)
+![image](https://github.com/user-attachments/assets/cbfc48c2-10ea-4678-8abc-f21b08afb07d)
 
-![11 my name inside](https://github.com/EricMcclellan1/AD-Lab/assets/147299619/99a766f7-f079-41b1-9271-9129461214ec)
+![image](https://github.com/user-attachments/assets/3c4897c0-7092-4304-883d-bc1526d8fd00)
 
-![12 other user](https://github.com/EricMcclellan1/AD-Lab/assets/147299619/b40c7540-f563-447b-891e-75ba2860a175)
+![image](https://github.com/user-attachments/assets/7ff0b85f-6534-4b75-85d5-1ca701f75906)
 
 ## Conclusion
 
