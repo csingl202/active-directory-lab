@@ -90,6 +90,9 @@ After joining the client machine to the Domain Controller, I tested the setup by
 
 ![image](https://github.com/user-attachments/assets/7ff0b85f-6534-4b75-85d5-1ca701f75906)
 
+![image](https://github.com/user-attachments/assets/67e78089-f8ee-48b3-bf08-e5f473265900)
+
+
 ## Conclusion
 
 In conclusion, this project provided valuable experience in properly configuring Active Directory, while also enhancing my practical skills with scripting and VirtualBox. Through hands-on exploration, I gained deeper technical insight into Active Directory—its features, functions, and overall structure—broadening my understanding of how it's used in real-world corporate environments.
